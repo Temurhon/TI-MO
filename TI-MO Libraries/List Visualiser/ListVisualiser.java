@@ -10,16 +10,7 @@ public class ListVisualiser {
     
     public void visualise(){
 
-    		//SLList temp = visualist;
-
-    	//	String c = "/]";
-    		
-    		//if(l.first == l.first){
-    		//System.out.println("[*|");
-    		//System.out.println(" |");
-    		//System.out.println(" "+l.first);
-    		//System.out
-    		//}
+    
 
         SLList temp = vlist;//this will go to the next object in SLLIST.
         SLList temp1 = vlist;
@@ -39,18 +30,9 @@ public class ListVisualiser {
 
 
         while(temp != SLList.NIL){//this will keep on looping until gets to the end of the SLLIST.
-         //   System.out.println(temp.first);
-            //System.out.println("["+temp.first+"|*]");
-            
-
-
-		            
-     
-            
-           // temp1 = temp1.rest;
-            
-
-//System.out.println("*]->[*|");
+       
+		
+		
 
           if(temp.rest == SLList.NIL){//when it reaches the end of the list then it'll prinout the string below.
           	t[1] += "[*|/]";
