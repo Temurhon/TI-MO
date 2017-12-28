@@ -73,8 +73,6 @@ public class ListVisualiser {
         	
         
 
-  //     System.out.println("/]");
-
 
 
 System.out.println(t[1]);
@@ -83,70 +81,13 @@ System.out.println(t[3]);
        
     
 
-        // System.out.println(t[5]);
-        // System.out.println(t[3]);
-
-       // System.out.println("/]");
+ 
 
     }
 
-//     		 while(l != SLList.NIL){
-    		 	
-    		 	
-    		
-//     		if(l.rest.first == SLList.NIL){
-//     			System.out.println("["+l.rest.first+"|/]");
-    			
-//     		}
-
-// if(l.rest == SLList.NIL){
-//     			System.out.println("["+l.rest.first+"|/]");
-//     			}
-    		
-    
-
-    // 		if(temp == null){
-    // 			temp = temp.rest();
-  		// }
-    		//System.out.println(temp);
-     			
-    		
-    		
-    
 
 }
 
-
-
-
-
-
-/*
-
-2.1 Implementing a class to visualise a list
-You have (in labs 04-06) already implemented a singly-linked list class in terms of SLList objects. For this
-part of the lab, you must implement a method to visualise a linked list object.
-
-Specifically, you must implement a ListVisualiser class, with:
-• a constructor accepting a single SLList reference – prototype ListVisualiser(SLList) (Java) /ListVisualiser(SLList *) (C++); and
-• a public method visualise() (Java) / visualise() (C++).
-
-The visualise() method should display the list given in the constructor using the box-and-pointer
-notation you should be familiar with from lecture slides. You may use any reasonable ASCII text-based
-representation, for example representing the list [1,11,23] as
-
-1
-[*|*]->[*|*]->[*|/]
- |      |      |
- 1      11     23
-
-or at your own risk you can implement a more advanced visualisation, for example using Unicode boxdrawing
-characters or a graphical library.
-You may find it helpful to test your visualiser using your own SLList implementation and my provided
-test file, using make test. You may also wish to consider other cases, and extend my provided test file to
-cover those.
-
-*/ 
 
 
 
