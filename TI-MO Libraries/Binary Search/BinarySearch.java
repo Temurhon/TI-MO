@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class BinarySearch {//variables
 	int counter = 0;
     public boolean search(int array [], int key, int lo, int hi) {
 
